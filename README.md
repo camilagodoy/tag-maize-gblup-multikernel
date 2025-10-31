@@ -7,9 +7,9 @@
 
 ### Repository description
 
-This repository contains the scripts and processed data used in the paper above and is organized as follows:
+This repository is organized as follows:
 
-- **`data/`** – contains the processed datasets used in the analyses:  
+- **`data/`** – contains the processed data sets used in the analyses:  
   - BLUEs from single- and multi-environment models (`single_env_analyses/` and `multi_env_analyses/`);  
   - Additive and dominance genomic relationship matrices considering all individuals combined, as well as separated by maturity group (`genomic_matrices/`).  
 
@@ -47,6 +47,4 @@ Phenotypic and genotypic data were obtained from the **Genomes to Fields (G2F)**
 Any questions about the analyses, please, contact me!
 
 J. Camila
-
-Jenifer Camila Godoy dos Santos
-Email: dcg92@illinois.edu
+Email: jcg92@illinois.edu
