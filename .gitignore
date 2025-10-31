@@ -1,0 +1,30 @@
+# R basics
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# renv cache
+renv/library/
+renv/staging/
+
+# raw/large data
+data/raw/*
+!data/raw/.gitkeep
+*.vcf
+*.vcf.gz
+*.bgen
+*.bed *.bim *.fam
+*.zip *.tar.gz
+
+# results heavy
+results/**/*.rds
+results/**/*.RData
+results/logs/*
+
+# LaTeX junk
+*.aux *.bbl *.bcf *.blg *.fdb_latexmk *.fls *.log *.out *.run.xml *.synctex* *.toc
+
+# OS/Editor
+.DS_Store
+*.swp
