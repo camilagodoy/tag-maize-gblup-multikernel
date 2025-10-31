@@ -14,9 +14,10 @@ This repository is organized as follows:
   - Additive and dominance genomic relationship matrices considering all individuals combined, as well as separated by maturity group (`genomic_matrices/`).  
 
 - **`scripts/`** – includes the R scripts used for:  
-  - estimation of genetic variance components,
-  - genomic prediction of single-cross hybrids under different cross-validation scenarios, and
-  - helper script (`0_functions.R`) with user-defined functions that perform key analytical steps, including: 
+  - estimation of genetic variance components;
+  - genomic prediction of single-cross hybrids under different cross-validation scenarios.
+    
+The **`scripts/`** folder also contains a helper script (`0_functions.R`) with user-defined functions that perform key analytical steps, including:  
     - (1) `fit_design2_models()` — fits GBLUP-based multi-kernel models for variance component estimation and prediction;  
     - (2) `get_covariance_matrices()` — computes genetic covariances between tested and untested hybrids;  
     - (3) `build_s_matrix()` — constructs the S matrix from the additive relationships of the parental groups.  
