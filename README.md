@@ -22,7 +22,7 @@ The **`scripts/`** folder also contains a helper script (`0_functions.R`) with u
     - (2) `get_covariance_matrices()` — computes genetic covariances between tested and untested hybrids;  
     - (3) `build_s_matrix()` — constructs the S matrix from the additive relationships of the parental groups. 
 
-📘 Note:
+Note:
 In all data files,
 Pedigree1 refers to the seed parents (Stiff Stalk lines, SS),
 Pedigree2 refers to the pollen parents (Non-Stiff Stalk lines, NSS), and
