@@ -14,20 +14,19 @@ This repository is organized as follows:
   - Additive and dominance genomic relationship matrices considering all individuals combined, as well as separated by maturity group (`genomic_matrices/`).  
 
 - **`scripts/`** – includes the R scripts used for:  
-  - (1) estimation of genetic variance components, and  
-  - (2) genomic prediction of single-cross hybrids under different cross-validation scenarios.  
+  - estimation of genetic variance components, and  
+  - genomic prediction of single-cross hybrids under different cross-validation scenarios.
+    
   This folder also contains a helper script (`0_functions.R`) with user-defined functions that perform key analytical steps, including:  
   - `fit_design2_models()` — fits GBLUP-based multi-kernel models for variance component estimation and prediction;  
   - `get_covariance_matrices()` — computes genetic covariances between tested and untested hybrids;  
   - `build_s_matrix()` — constructs the S matrix from the additive relationships of the parental groups.  
 
-All datasets are stored in `.rds` format and can be loaded directly into R using `readRDS()`.
-
 ---
 
 ### Raw data
 
-Phenotypic and genotypic data were obtained from the **Genomes to Fields (G2F)** initiative and can be found as follows:
+Phenotypic and genotypic data were obtained from the **Genomes to Fields (G2F)** initiative and are publicly accessible through the following links:
 
 #### **Phenotypic data**
 - **2016 season**  
@@ -46,5 +45,6 @@ Phenotypic and genotypic data were obtained from the **Genomes to Fields (G2F)**
 ---
 Any questions about the analyses, please, contact me!
 
-J. Camila
+Jenifer Camila
+
 Email: jcg92@illinois.edu
