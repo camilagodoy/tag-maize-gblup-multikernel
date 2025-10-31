@@ -23,10 +23,10 @@ The **`scripts/`** folder also contains a helper script (`0_functions.R`) with u
     - (3) `build_s_matrix()` — constructs the S matrix from the additive relationships of the parental groups. 
 
 Note:
-In all data files,
-Pedigree1 refers to the seed parents (Stiff Stalk lines, SS),
-Pedigree2 refers to the pollen parents (Non-Stiff Stalk lines, NSS), and
-Pedigree identifies the single-cross hybrids derived from their combinations.
+In all data files, the column:
+- Pedigree1 refers to the seed parents (Stiff Stalk lines, SS);
+- Pedigree2 refers to the pollen parents (Non-Stiff Stalk lines, NSS);
+- Pedigree identifies the single-cross hybrids derived from their combinations.
 
 ---
 
